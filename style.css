@@ -1,0 +1,16 @@
+table{
+  font-family:  Georgia, Times, 'Times New Roman', serif;
+  font-size: auto;
+  font-weight: bold;
+  background-color: white;
+  color: lightcoral
+}
+
+h1{
+  color: darkorchid;
+  font-weight: bold;
+  background-color: darkslateblue;
+  font-size: 50;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
