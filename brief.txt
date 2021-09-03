@@ -1,0 +1,7 @@
+Project Name: Form Validation
+Author Name: Success Chidinma Ongharaka
+Timeline: 2 weeks
+Project Description: 
+Users should be able to
+-Fill a form that you register and submit
+-If you don't fill the form it should not submit, but alert that you suppose to fill the form
