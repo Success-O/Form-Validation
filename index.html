@@ -9,105 +9,99 @@
 </head>
 <body>
   <div class="container">
-   <h1>Form Registration</h1>
-   <h2><p>Fill in all details below</p></h2>
    <form name="registration" class="registration-form" onsubmit="return(formValidation())">
-     <table>
-        <tr>
-         <td><label for="firstName"> First Name:</label></td>
-         <td><input type="firstName" name="firstName" id="firstName" required></td>
-        </tr>
+              <fieldset>
+                <legend>
+                    <h1>Form Validation</h1>
+                </legend>
+                <h2>Fill in all details below</h2>
 
-        <tr>
-           <td><label for="middleName">Middle Name:</label></td>
-           <td><input type="middleName" name="middleName" id="middleName" required></td>
-        </tr>
+        <div>
+         <label for="firstName"> First Name:</label>
+        <input type="firstName" name="firstName" id="firstName" required>
+        </div>
 
-        <tr>
-           <td><label for="lastName">Last Name:</label></td>
-           <td><input type="lastName" name="lastName" id="lastName" required></td>
-        </tr>
-        </table>
+        <div>
+          <label for="middleName">Middle Name:</label>
+           <input type="middleName" name="middleName" id="middleName" required>
+        </div>
+
+        <div>
+           <label for="lastName">Last Name:</label>
+           <input type="lastName" name="lastName" id="lastName" required>
+        </div>
         <br>
-         <table>
-            <tr>
-               
-                  <td><label for="dateOfBirth">Date Of Birth</label></td>
-               <td><input type="date" name="dateOfBirth" id="dateOfBirth"></td>
-            </tr>
 
-            <tr>
-               <td><label for="placeOfBirth">Place Of Birth:</label></td>
-               <td><input type="text" name="placeOfBirth" id="Place of Birth" required></td>
-            </tr>
-         </table>
+              <div>     
+                  <label for="dateOfBirth">Date Of Birth</label>
+               <input type="date" name="dateOfBirth" id="dateOfBirth">
+            </div>
+
+            <div>
+               <label for="placeOfBirth">Place Of Birth:</label>
+               <input type="text" name="placeOfBirth" id="Place of Birth" required>
+            </div>
+        
          <br>
 
-         <table>
-            <tr>
-               <td><label for="stateOfOrigin">State Of Origin:</label></td>
-               <td><input type="text" name="stateOfOrigin" id="stateOfOrigin" required></td>
-            </tr>
+         
+           <div>
+               <label for="stateOfOrigin">State Of Origin:</label>
+               <input type="text" name="stateOfOrigin" id="stateOfOrigin" required>
+            </div>
 
-            <tr>
-               <td><label for="residentialArea">Residential Area:</label></td>
-              <td><input type="text" name="residentialArea" id="residentialArea" required></td>
-            </tr>
+            <div>
+               <label for="residentialArea">Residential Area:</label>
+              <input type="text" name="residentialArea" id="residentialArea" required>
+            </div>
+            
+              <div>
+               <label for="LGA">LGA:</label>
+               <input type="text" name="LGA" id="LGA" required>
+            </div>
 
-            <tr>
-               <td><label for="LGA">LGA:</label></td>
-               <td><input type="text" name="LGA" id="LGA" required></td>
-            </tr>
+            <div>
+               <label for="city">City:</label>
+               <input type="text" name="city" id="city" required>
+            </div>
 
-            <tr>
-               <td><label for="city">City:</label></td>
-               <td><input type="text" name="city" id="city" required></td>
-            </tr>
+            <div>
+               <label for="country">Country:</label>
+               <input type="text" name="country" id="country" required>
+            </div>
 
-            <tr>
-               <td><label for="country">Country:</label></td>
-               <td><input type="text" name="country" id="country" required></td>
-            </tr>
-         </table>
+         
          <br>
 
-         <table>
-            <tr>
-               <td><label for="Phone">Phone Number:</label></td>
-               <td><input type="number" name="phone" id="phone" required></td>
-            </tr>
+         <div>
+               <label for="Phone">Phone Number:</label>
+               <input type="number" name="phone" id="phone" required>
+            <div>
 
-            <tr>
-               <td><label for="gender">Gender</label></td>
-               <td>
+            </div>
+               <label for="gender">Gender</label>
                  Male <input type="radio" name="gender" id="male" required>
                 Female  <input type="radio" name="gender" id="female" required>
                 Others <input type="radio" name="gender" id="others" required>
-               </td>
-            </tr>
-         </table>
-         <br>
+               </div>
+            
+         
 
-         <table>
-            <tr>
-               <td><label for="about">About:</label></td>
-               <td><textarea name="about" id="about" cols="30" rows="10" placeholder="Write about yourself..." ></textarea></td>
-            </tr>
-            </table>
+         <div>
+               <label for="about">About:</label>
+               <textarea name="about" id="about" cols="30" rows="10" placeholder="Write about yourself..." ></textarea>
+              </div>
+        
             <br>
-              <table>  
-            <tr>
-               <td>
               
+              <div>
                    <input type="submit" form="myform" value="Submit" class="submit-btn"/>
                        
-                   
+                   </div>
                   
-               </td>
-            </tr>
-            </table>
+             
             <script src="index.js"></script>
-         
+         </fieldset>
    </form>
   </div>
 </body>
